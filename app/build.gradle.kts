@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.roque_appdev"
+    namespace = "com.example.roque_androiday2627"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.roque_appdev"
+        applicationId = "com.example.roque_androiday2627"
         minSdk = 25
         targetSdk = 37
         versionCode = 1
@@ -25,6 +25,9 @@ android {
                 packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
             }
         }
+    }
+    buildFeatures{
+        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

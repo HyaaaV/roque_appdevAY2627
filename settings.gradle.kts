@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "roque_appdev"
+rootProject.name = "roque_androidAY2627"
 include(":app")
+ 
